@@ -1,0 +1,4 @@
+module libqrencode {
+    umbrella header "qrencode-umbrella.h"
+    export *
+}
