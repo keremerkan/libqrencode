@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 90;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -59,8 +59,10 @@
 /* Begin PBXFrameworksBuildPhase section */
 		77F79DC11297484D008B29CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -115,6 +117,7 @@
 /* Begin PBXHeadersBuildPhase section */
 		77F79DC21297484D008B29CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 				B10CBD742DD708AA00103482 /* qrencode-umbrella.h in Headers */,
 				B10CBD752DD708AA00103482 /* bitstream.h in Headers */,
@@ -129,6 +132,7 @@
 				B10CBD7E2DD708AA00103482 /* mask.h in Headers */,
 				77F79DDA12974987008B29CD /* config.h in Headers */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -143,7 +147,11 @@
 			);
 			buildRules = (
 			);
+			dependencies = (
+			);
 			name = qrencode;
+			packageProductDependencies = (
+			);
 			productName = qrencode;
 			productReference = 77F79DC41297484D008B29CD /* libqrencode.a */;
 			productType = "com.apple.product-type.library.static";
@@ -165,7 +173,7 @@
 				Base,
 			);
 			mainGroup = 77F79DB61297484D008B29CD;
-			preferredProjectObjectVersion = 90;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 77F79DC51297484D008B29CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -178,6 +186,7 @@
 /* Begin PBXSourcesBuildPhase section */
 		77F79DC01297484D008B29CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 				B10CBD6A2DD708AA00103482 /* mmask.c in Sources */,
 				B10CBD6B2DD708AA00103482 /* mqrspec.c in Sources */,
@@ -189,11 +198,12 @@
 				B10CBD722DD708AA00103482 /* split.c in Sources */,
 				B10CBD732DD708AA00103482 /* bitstream.c in Sources */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		77D9F79B1297554C0075CBDD /* AdHoc configuration for PBXProject "qrencode" */ = {
+		77D9F79B1297554C0075CBDD /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -234,7 +244,7 @@
 			};
 			name = AdHoc;
 		};
-		77D9F79C1297554C0075CBDD /* AdHoc configuration for PBXNativeTarget "qrencode" */ = {
+		77D9F79C1297554C0075CBDD /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,11 +257,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = AdHoc;
 		};
-		77F79DC91297484D008B29CD /* Debug configuration for PBXProject "qrencode" */ = {
+		77F79DC91297484D008B29CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -298,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		77F79DCA1297484D008B29CD /* Release configuration for PBXProject "qrencode" */ = {
+		77F79DCA1297484D008B29CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -339,7 +351,7 @@
 			};
 			name = Release;
 		};
-		77F79DCC1297484D008B29CD /* Debug configuration for PBXNativeTarget "qrencode" */ = {
+		77F79DCC1297484D008B29CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,11 +364,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		77F79DCD1297484D008B29CD /* Release configuration for PBXNativeTarget "qrencode" */ = {
+		77F79DCD1297484D008B29CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,11 +383,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		8199ABAE13CF063E00A496D9 /* Distribution configuration for PBXProject "qrencode" */ = {
+		8199ABAE13CF063E00A496D9 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -414,7 +430,7 @@
 			};
 			name = Distribution;
 		};
-		8199ABAF13CF063E00A496D9 /* Distribution configuration for PBXNativeTarget "qrencode" */ = {
+		8199ABAF13CF063E00A496D9 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -427,6 +443,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Distribution;
@@ -437,21 +455,23 @@
 		77F79DBB1297484D008B29CD /* Build configuration list for PBXProject "qrencode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77F79DC91297484D008B29CD /* Debug configuration for PBXProject "qrencode" */,
-				77F79DCA1297484D008B29CD /* Release configuration for PBXProject "qrencode" */,
-				77D9F79B1297554C0075CBDD /* AdHoc configuration for PBXProject "qrencode" */,
-				8199ABAE13CF063E00A496D9 /* Distribution configuration for PBXProject "qrencode" */,
+				77F79DC91297484D008B29CD /* Debug */,
+				77F79DCA1297484D008B29CD /* Release */,
+				77D9F79B1297554C0075CBDD /* AdHoc */,
+				8199ABAE13CF063E00A496D9 /* Distribution */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		77F79DCB1297484D008B29CD /* Build configuration list for PBXNativeTarget "qrencode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77F79DCC1297484D008B29CD /* Debug configuration for PBXNativeTarget "qrencode" */,
-				77F79DCD1297484D008B29CD /* Release configuration for PBXNativeTarget "qrencode" */,
-				77D9F79C1297554C0075CBDD /* AdHoc configuration for PBXNativeTarget "qrencode" */,
-				8199ABAF13CF063E00A496D9 /* Distribution configuration for PBXNativeTarget "qrencode" */,
+				77F79DCC1297484D008B29CD /* Debug */,
+				77F79DCD1297484D008B29CD /* Release */,
+				77D9F79C1297554C0075CBDD /* AdHoc */,
+				8199ABAF13CF063E00A496D9 /* Distribution */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
